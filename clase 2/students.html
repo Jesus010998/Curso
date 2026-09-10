@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro de Alumnos</title>
+
+    <link rel="stylesheet" href="students.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Registro de Alumnos</h1>
+
+        <form id="formulario">
+
+            <label for="nombre">Nombre</label>
+
+            <input type="text"
+                   id="nombre"
+                   placeholder="Escribe el nombre"
+                   required>
+
+            <label for="carrera">Carrera</label>
+
+            <input type="text"
+                   id="carrera"
+                   placeholder="Escribe la carrera"
+                   required>
+
+            <button type="submit">
+                Guardar
+            </button>
+
+        </form>
+
+        <h2>Alumnos registrados</h2>
+
+        <div id="lista"></div>
+
+    </main>
+
+    <script src="students.js"></script>
+
+</body>
+
+</html>
