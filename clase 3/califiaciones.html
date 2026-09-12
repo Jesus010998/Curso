@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Registro de Calificacioones</title>
+
+    <link rel="stylesheet" href="calificaciones.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Calificaciones</h1>
+
+        <form id="formulario">
+
+            <label for="nombre">Nombre del alumno</label>
+
+            <input type="text"
+                   id="nombre"
+                   placeholder="Escribe el nombre"
+                   required>
+
+            <label for="apellidoP">Apellido Paterno</label>
+
+            <input type="text"
+                   id="apellidoP"
+                   placeholder="Escribe el apellido paterno"
+                   required>
+
+            <label for="apellidoM">Apellido Materno</label>
+
+            <input type="text"
+                   id="apellidoM"
+                   placeholder="Escribe el apellido materno"
+                   required>
+
+            <label for="carrera">Materia 1</label>
+
+            <input type="text"
+                   id="Materia1"
+                   placeholder="Escriba la Calificacion 1 "
+                   required>
+
+            <label for="control">Materia 2</label>
+
+            <input type="text"
+                   id="Materia2"
+                   placeholder="Escriba la Calificacion 2"
+                   required>
+            
+            <label for="control">Materia 3</label>
+
+             <input type="text"
+                   id="Materia3"
+                   placeholder="Escriba la Calificacion 3"
+                   required>
+
+            <button type="submit">
+                Guardar
+            </button>
+           
+
+        </form>
+
+        <h2>Calificaciones Registradas</h2>
+
+        <div id="lista">
+            <button type="submit">
+                Eliminar
+            </button>
+        </div>
+
+
+    </main>
+
+    <script src="calificaciones.js"></script>
+
+</body>
+
+</html>

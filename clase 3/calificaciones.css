@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+main {
+    width: 500px;
+    margin: 60px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 12px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #8c4ae2;
+}
+
+button {
+    margin-top: 18px;
+    padding: 10px;
+    background-color: #8c4ae2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+.alumno {
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    padding: 12px;
+    border-left: 4px solid #4a90e2;
+    border-radius: 5px;
+}
+
+.alumno p {
+    margin: 5px 0 0 0;
+    color: #666666;
+}
