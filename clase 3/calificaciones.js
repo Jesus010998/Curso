@@ -21,7 +21,7 @@ formulario.addEventListener("submit", function(evento) {
 
     if (cal1 > 10 , cal2 > 10 , cal3 > 10) {
         
-        
+        return;
     }
 
     const promedio = (cal1 + cal2 + cal3) / 3;
