@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 from database import get_connection
 
-# Se corrige 'tittle' por 'title'
+
 app = FastAPI(
     title="Clase CSR",
     description="Primera conexion entre FASTAPI y Postgres",
@@ -54,9 +54,7 @@ def obtener_estudiantes():
             detail=f"Error al consultar estudiantes: {error}"
         )
 
-# ==========================================
-# NUEVOS ENDPOINTS DE LA TAREA
-# ==========================================
+
 
 @app.get("/maestros")
 def obtener_maestros():

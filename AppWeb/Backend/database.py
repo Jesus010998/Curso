@@ -5,7 +5,7 @@ from psycopg.rows import dict_row
 from dotenv import load_dotenv
 
 
-# Cargar las variables del archivo .env
+
 load_dotenv()
 
 
